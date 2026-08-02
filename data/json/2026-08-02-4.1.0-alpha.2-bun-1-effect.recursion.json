@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 5,
+  "metadata": {
+    "releaseTag": "4.1.0-alpha.2",
+    "runtime": "bun",
+    "runtimeMajorVersion": 1,
+    "timestamp": "2026-08-02T00:30:01.712Z",
+    "runner": {
+      "os": "linux",
+      "arch": "x86_64"
+    },
+    "scenario": "effect.recursion",
+    "benchmarkParams": {
+      "repeat": 10,
+      "warmup": 10,
+      "depth": 100
+    },
+    "source": "npm"
+  },
+  "results": [
+    {
+      "name": "effect",
+      "samples": [
+        1.0282080000000065,
+        0.8366519999999582,
+        0.6759820000000332,
+        0.7551599999999894,
+        0.7197180000000003,
+        0.8554200000000378,
+        0.7350809999999797,
+        0.6366929999999797,
+        0.644785000000013,
+        0.5744899999999689
+      ],
+      "memorySamples": [
+        {
+          "rssBefore": 136515584,
+          "rssAfter": 137695232,
+          "rssDelta": 1179648,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 137695232
+        },
+        {
+          "rssBefore": 137449472,
+          "rssAfter": 137973760,
+          "rssDelta": 524288,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 137973760
+        },
+        {
+          "rssBefore": 138104832,
+          "rssAfter": 138104832,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138104832
+        },
+        {
+          "rssBefore": 138366976,
+          "rssAfter": 138498048,
+          "rssDelta": 131072,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138498048
+        },
+        {
+          "rssBefore": 138498048,
+          "rssAfter": 138498048,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138498048
+        },
+        {
+          "rssBefore": 138498048,
+          "rssAfter": 138629120,
+          "rssDelta": 131072,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138629120
+        },
+        {
+          "rssBefore": 138629120,
+          "rssAfter": 138760192,
+          "rssDelta": 131072,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138760192
+        },
+        {
+          "rssBefore": 138760192,
+          "rssAfter": 138760192,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138760192
+        },
+        {
+          "rssBefore": 138891264,
+          "rssAfter": 138891264,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 138891264
+        },
+        {
+          "rssBefore": 139022336,
+          "rssAfter": 139022336,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 139022336
+        }
+      ]
+    }
+  ]
+}

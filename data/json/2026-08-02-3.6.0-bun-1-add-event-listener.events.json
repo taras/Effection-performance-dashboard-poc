@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 5,
+  "metadata": {
+    "releaseTag": "3.6.0",
+    "runtime": "bun",
+    "runtimeMajorVersion": 1,
+    "timestamp": "2026-08-02T00:30:10.254Z",
+    "runner": {
+      "os": "linux",
+      "arch": "x86_64"
+    },
+    "scenario": "add-event-listener.events",
+    "benchmarkParams": {
+      "repeat": 10,
+      "warmup": 10,
+      "depth": 100
+    },
+    "source": "npm"
+  },
+  "results": [
+    {
+      "name": "addEventListener",
+      "samples": [
+        3.6181139999999914,
+        3.026676000000009,
+        2.7957480000000032,
+        3.0757859999999937,
+        3.0980519999999956,
+        3.5568339999999807,
+        3.392867000000024,
+        3.2279379999999946,
+        3.2200659999999743,
+        3.025956000000008
+      ],
+      "memorySamples": [
+        {
+          "rssBefore": 142667776,
+          "rssAfter": 144240640,
+          "rssDelta": 1572864,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 144240640
+        },
+        {
+          "rssBefore": 145027072,
+          "rssAfter": 145420288,
+          "rssDelta": 393216,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145420288
+        },
+        {
+          "rssBefore": 145551360,
+          "rssAfter": 145551360,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145551360
+        },
+        {
+          "rssBefore": 145551360,
+          "rssAfter": 145682432,
+          "rssDelta": 131072,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145682432
+        },
+        {
+          "rssBefore": 145682432,
+          "rssAfter": 145682432,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145682432
+        },
+        {
+          "rssBefore": 145682432,
+          "rssAfter": 143646720,
+          "rssDelta": -2035712,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145682432
+        },
+        {
+          "rssBefore": 143646720,
+          "rssAfter": 143646720,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 143646720
+        },
+        {
+          "rssBefore": 143646720,
+          "rssAfter": 143646720,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 143646720
+        },
+        {
+          "rssBefore": 143646720,
+          "rssAfter": 143646720,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 143646720
+        },
+        {
+          "rssBefore": 143646720,
+          "rssAfter": 143646720,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 143646720
+        }
+      ]
+    }
+  ]
+}

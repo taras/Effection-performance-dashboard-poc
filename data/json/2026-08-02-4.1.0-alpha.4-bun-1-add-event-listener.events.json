@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 5,
+  "metadata": {
+    "releaseTag": "4.1.0-alpha.4",
+    "runtime": "bun",
+    "runtimeMajorVersion": 1,
+    "timestamp": "2026-08-02T00:30:27.288Z",
+    "runner": {
+      "os": "linux",
+      "arch": "x86_64"
+    },
+    "scenario": "add-event-listener.events",
+    "benchmarkParams": {
+      "repeat": 10,
+      "warmup": 10,
+      "depth": 100
+    },
+    "source": "npm"
+  },
+  "results": [
+    {
+      "name": "addEventListener",
+      "samples": [
+        4.4926510000000235,
+        4.068801000000008,
+        3.7817360000000235,
+        4.057199999999966,
+        3.8247159999999667,
+        3.7691320000000132,
+        3.790551999999991,
+        3.971017999999958,
+        3.777979000000016,
+        3.726043000000004
+      ],
+      "memorySamples": [
+        {
+          "rssBefore": 142020608,
+          "rssAfter": 143593472,
+          "rssDelta": 1572864,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 143593472
+        },
+        {
+          "rssBefore": 144510976,
+          "rssAfter": 144904192,
+          "rssDelta": 393216,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 144904192
+        },
+        {
+          "rssBefore": 144904192,
+          "rssAfter": 145166336,
+          "rssDelta": 262144,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145166336
+        },
+        {
+          "rssBefore": 145166336,
+          "rssAfter": 145166336,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145166336
+        },
+        {
+          "rssBefore": 145297408,
+          "rssAfter": 145297408,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145297408
+        },
+        {
+          "rssBefore": 145297408,
+          "rssAfter": 145297408,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145297408
+        },
+        {
+          "rssBefore": 145297408,
+          "rssAfter": 145297408,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145297408
+        },
+        {
+          "rssBefore": 145297408,
+          "rssAfter": 144908288,
+          "rssDelta": -389120,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145297408
+        },
+        {
+          "rssBefore": 145039360,
+          "rssAfter": 145039360,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145039360
+        },
+        {
+          "rssBefore": 145039360,
+          "rssAfter": 145039360,
+          "rssDelta": 0,
+          "heapUsedBefore": 175406,
+          "heapUsedAfter": 175406,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 175406,
+          "heapUsedPeak": 175406,
+          "rssPeak": 145039360
+        }
+      ]
+    }
+  ]
+}

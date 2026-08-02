@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 5,
+  "metadata": {
+    "releaseTag": "3.6.1",
+    "runtime": "bun",
+    "runtimeMajorVersion": 1,
+    "timestamp": "2026-08-02T00:30:29.442Z",
+    "runner": {
+      "os": "linux",
+      "arch": "x86_64"
+    },
+    "scenario": "async-await.recursion",
+    "benchmarkParams": {
+      "repeat": 10,
+      "warmup": 10,
+      "depth": 100
+    },
+    "source": "npm"
+  },
+  "results": [
+    {
+      "name": "async-await",
+      "samples": [
+        0.5296390000000315,
+        0.48762999999996737,
+        0.2840999999999667,
+        0.3017639999999915,
+        0.328412999999955,
+        0.5789399999999887,
+        0.473433,
+        0.3081659999999715,
+        0.348088999999959,
+        0.2956219999999803
+      ],
+      "memorySamples": [
+        {
+          "rssBefore": 123166720,
+          "rssAfter": 123297792,
+          "rssDelta": 131072,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 123297792
+        },
+        {
+          "rssBefore": 128933888,
+          "rssAfter": 128933888,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 128933888
+        },
+        {
+          "rssBefore": 129458176,
+          "rssAfter": 129458176,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 129458176
+        },
+        {
+          "rssBefore": 129458176,
+          "rssAfter": 129458176,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 129458176
+        },
+        {
+          "rssBefore": 125157376,
+          "rssAfter": 125157376,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 125157376
+        },
+        {
+          "rssBefore": 125157376,
+          "rssAfter": 125157376,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 125157376
+        },
+        {
+          "rssBefore": 125157376,
+          "rssAfter": 125288448,
+          "rssDelta": 131072,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 125288448
+        },
+        {
+          "rssBefore": 125288448,
+          "rssAfter": 125288448,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 125288448
+        },
+        {
+          "rssBefore": 125288448,
+          "rssAfter": 125288448,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 125288448
+        },
+        {
+          "rssBefore": 125288448,
+          "rssAfter": 125288448,
+          "rssDelta": 0,
+          "heapUsedBefore": 176462,
+          "heapUsedAfter": 176462,
+          "heapUsedDelta": 0,
+          "heapUsedAfterGc": 176462,
+          "heapUsedPeak": 176462,
+          "rssPeak": 125288448
+        }
+      ]
+    }
+  ]
+}
