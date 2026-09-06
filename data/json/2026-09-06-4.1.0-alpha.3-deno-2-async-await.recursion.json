@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 5,
+  "metadata": {
+    "releaseTag": "4.1.0-alpha.3",
+    "runtime": "deno",
+    "runtimeMajorVersion": 2,
+    "timestamp": "2026-09-06T02:21:06.223Z",
+    "runner": {
+      "os": "linux",
+      "arch": "x86_64"
+    },
+    "scenario": "async-await.recursion",
+    "benchmarkParams": {
+      "repeat": 10,
+      "warmup": 10,
+      "depth": 100
+    },
+    "source": "npm"
+  },
+  "results": [
+    {
+      "name": "async-await",
+      "samples": [
+        0.4387699999999768,
+        0.35397100000000137,
+        0.4059989999999516,
+        0.38397699999995893,
+        0.30620199999998476,
+        0.31999799999999823,
+        0.32824399999998377,
+        0.31761399999999185,
+        0.29759599999999864,
+        0.29542300000002797
+      ],
+      "memorySamples": [
+        {
+          "rssBefore": 120815616,
+          "rssAfter": 120979456,
+          "rssDelta": 163840,
+          "heapUsedBefore": 39252376,
+          "heapUsedAfter": 39351704,
+          "heapUsedDelta": 99328,
+          "heapUsedAfterGc": 32601216,
+          "heapUsedPeak": 39351704,
+          "rssPeak": 120979456
+        },
+        {
+          "rssBefore": 122433536,
+          "rssAfter": 122441728,
+          "rssDelta": 8192,
+          "heapUsedBefore": 32614240,
+          "heapUsedAfter": 32717536,
+          "heapUsedDelta": 103296,
+          "heapUsedAfterGc": 32604704,
+          "heapUsedPeak": 32717536,
+          "rssPeak": 122441728
+        },
+        {
+          "rssBefore": 122220544,
+          "rssAfter": 122294272,
+          "rssDelta": 73728,
+          "heapUsedBefore": 32608936,
+          "heapUsedAfter": 32711120,
+          "heapUsedDelta": 102184,
+          "heapUsedAfterGc": 32605008,
+          "heapUsedPeak": 32711120,
+          "rssPeak": 122294272
+        },
+        {
+          "rssBefore": 122294272,
+          "rssAfter": 122302464,
+          "rssDelta": 8192,
+          "heapUsedBefore": 32608448,
+          "heapUsedAfter": 32717496,
+          "heapUsedDelta": 109048,
+          "heapUsedAfterGc": 32607112,
+          "heapUsedPeak": 32717496,
+          "rssPeak": 122302464
+        },
+        {
+          "rssBefore": 122306560,
+          "rssAfter": 122310656,
+          "rssDelta": 4096,
+          "heapUsedBefore": 32610552,
+          "heapUsedAfter": 32713632,
+          "heapUsedDelta": 103080,
+          "heapUsedAfterGc": 32607320,
+          "heapUsedPeak": 32713632,
+          "rssPeak": 122310656
+        },
+        {
+          "rssBefore": 122314752,
+          "rssAfter": 122318848,
+          "rssDelta": 4096,
+          "heapUsedBefore": 32610760,
+          "heapUsedAfter": 32713960,
+          "heapUsedDelta": 103200,
+          "heapUsedAfterGc": 32607528,
+          "heapUsedPeak": 32713960,
+          "rssPeak": 122318848
+        },
+        {
+          "rssBefore": 122318848,
+          "rssAfter": 122322944,
+          "rssDelta": 4096,
+          "heapUsedBefore": 32610968,
+          "heapUsedAfter": 32714048,
+          "heapUsedDelta": 103080,
+          "heapUsedAfterGc": 32607736,
+          "heapUsedPeak": 32714048,
+          "rssPeak": 122322944
+        },
+        {
+          "rssBefore": 122322944,
+          "rssAfter": 122322944,
+          "rssDelta": 0,
+          "heapUsedBefore": 32611176,
+          "heapUsedAfter": 32714256,
+          "heapUsedDelta": 103080,
+          "heapUsedAfterGc": 32607944,
+          "heapUsedPeak": 32714256,
+          "rssPeak": 122322944
+        },
+        {
+          "rssBefore": 122331136,
+          "rssAfter": 122331136,
+          "rssDelta": 0,
+          "heapUsedBefore": 32611472,
+          "heapUsedAfter": 32714848,
+          "heapUsedDelta": 103376,
+          "heapUsedAfterGc": 32620760,
+          "heapUsedPeak": 32714848,
+          "rssPeak": 122331136
+        },
+        {
+          "rssBefore": 122335232,
+          "rssAfter": 122335232,
+          "rssDelta": 0,
+          "heapUsedBefore": 32624288,
+          "heapUsedAfter": 32727368,
+          "heapUsedDelta": 103080,
+          "heapUsedAfterGc": 32620904,
+          "heapUsedPeak": 32727368,
+          "rssPeak": 122335232
+        }
+      ]
+    }
+  ]
+}
